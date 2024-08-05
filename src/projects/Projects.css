@@ -3,21 +3,42 @@
 }
 
 .color-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced between top and bottom */
+    border: 1px solid rgb(163, 163, 163);
+    background-color: rgb(250, 250, 250);
+    padding: 1rem;
+    border-radius: 2rem;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.project-details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    text-align: center;
+    height: 480px; /* Set a fixed height */
 }
 
 .project-img {
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 90%;
     height: 90%;
+    object-fit: cover;
 }
 
 .img-container {
     display: flex;
-    justify-content: center; /* Changed from space-around to flex-start */
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 1rem 0;
 }
 
 .project-title {
@@ -29,4 +50,16 @@
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+    /*padding: 0.5rem 1rem;*/
+    /*text-align: center;*/
+    /*cursor: pointer;*/
+    /*background: none;*/
+}
+
+.skill-details-container, .about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import arrowIcon from '../assets/down-arrow.png';
-import project1Image from '../assets/project-1.png';
+import project1Image from '../assets/project1-img.png';
 import project2Image from '../assets/project-2.png';
-import project3Image from '../assets/project-3.png';
+import project3Image from '../assets/project3-img.png';
 
 import './Projects.css'
 
@@ -12,7 +12,7 @@ const Projects = () => (
         <h1 className="title">Projects</h1>
         <div className="skill-details-container">
             <div className="about-containers">
-                <div className="details-container color-container">
+                <div className="project-details-container color-container">
                     <div className="img-container">
                         <img
                             src={project1Image}
@@ -30,13 +30,13 @@ const Projects = () => (
                         </button>
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={() => window.location.href = 'https://github.com/'}
+                            onClick={() => window.open('https://financetrackingwebapplication.azurewebsites.net/', '_blank', 'noopener,noreferrer')}
                         >
                             Live Demo
                         </button>
                     </div>
                 </div>
-                <div className="details-container color-container">
+                <div className="project-details-container color-container">
                     <div className="img-container">
                         <img
                             src={project2Image}
@@ -60,7 +60,7 @@ const Projects = () => (
                         </button>
                     </div>
                 </div>
-                <div className="details-container color-container">
+                <div className="project-details-container color-container">
                     <div className="img-container">
                         <img
                             src={project3Image}

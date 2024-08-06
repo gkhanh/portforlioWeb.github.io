@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolioWeb.github.io/static/css/main.5938a9cf.css",
+    "main.js": "/portfolioWeb.github.io/static/js/main.ed3311b6.js",
+    "static/js/453.4f8d9570.chunk.js": "/portfolioWeb.github.io/static/js/453.4f8d9570.chunk.js",
+    "static/media/project-2.png": "/portfolioWeb.github.io/static/media/project-2.2f15d9f817c3b4924ae6.png",
+    "static/media/profile-pic.jpg": "/portfolioWeb.github.io/static/media/profile-pic.7a1ea79ad713f1c64095.jpg",
+    "static/media/Khanh_Le_-_CV.pdf": "/portfolioWeb.github.io/static/media/Khanh_Le_-_CV.a5df7753d75b6ff2d2f4.pdf",
+    "static/media/project1-img.png": "/portfolioWeb.github.io/static/media/project1-img.1575cfcfbca4e8fabd12.png",
+    "static/media/project3-img.png": "/portfolioWeb.github.io/static/media/project3-img.e4ec7234e10316313c54.png",
+    "static/media/atom.png": "/portfolioWeb.github.io/static/media/atom.13a57c991bb8dd8ceea0.png",
+    "static/media/up-arrow.png": "/portfolioWeb.github.io/static/media/up-arrow.e1f248039b9675538f04.png",
+    "static/media/email.png": "/portfolioWeb.github.io/static/media/email.761df3bc69bdc631bd2f.png",
+    "static/media/instagram.png": "/portfolioWeb.github.io/static/media/instagram.b4ff9be06a8f84fada1b.png",
+    "static/media/java.png": "/portfolioWeb.github.io/static/media/java.74f53585a7c54aa8fdf5.png",
+    "static/media/developer.png": "/portfolioWeb.github.io/static/media/developer.9d5d9c4bdaf475fb7f10.png",
+    "static/media/linkedin.png": "/portfolioWeb.github.io/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/python.png": "/portfolioWeb.github.io/static/media/python.14a9fe046ce9b57d1e97.png",
+    "static/media/css-3.png": "/portfolioWeb.github.io/static/media/css-3.7654ce00c5ac2e76e015.png",
+    "index.html": "/portfolioWeb.github.io/index.html",
+    "main.5938a9cf.css.map": "/portfolioWeb.github.io/static/css/main.5938a9cf.css.map",
+    "main.ed3311b6.js.map": "/portfolioWeb.github.io/static/js/main.ed3311b6.js.map",
+    "453.4f8d9570.chunk.js.map": "/portfolioWeb.github.io/static/js/453.4f8d9570.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5938a9cf.css",
+    "static/js/main.ed3311b6.js"
+  ]
+}

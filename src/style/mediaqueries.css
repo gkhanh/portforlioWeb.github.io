@@ -30,6 +30,51 @@
   .arrow {
     display: none;
   }
+
+  #profile {
+    display: flex ;
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center content horizontally */
+    height: auto; /* Allow content to dictate height */
+    margin-bottom: 5rem; /* Add spacing below the profile section */
+  }
+
+  .section__pic-container {
+    width: 100%; /* Make the picture container full width */
+    height: auto; /* Adjust height based on content */
+    margin: 0 auto 1rem; /* Center it and add margin below */
+    max-width: 360px; /* Adjust the max-width to control size */
+    max-height: 360px;
+  }
+
+  .frame {
+    width: 100%; /* Ensure the frame takes full width of container */
+    height: auto; /* Adjust height accordingly */
+    max-width: 320px; /* Control the frame size */
+    max-height: 320px;
+  }
+
+  .frame img {
+    width: 100%; /* Image fills the frame */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 260px; /* Adjust as needed to fit within the frame */
+    max-height: 260px;
+  }
+
+  .section__text {
+    text-align: center;
+    margin: 0 2rem; /* Adjust margin to ensure spacing */
+    width: 100%;
+  }
+
+  .title {
+    font-size: 2.5rem; /* Adjust title size */
+  }
+
+  .section__text__p2 {
+    font-size: 1.5rem; /* Adjust paragraph text size */
+  }
+
   section,
   .section-container {
     height: fit-content;
@@ -45,6 +90,14 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .project-details-container {
+    height: auto; /* Let the height be flexible */
+    width: 100%; /* Take full width */
+    margin: 1rem auto; /* Add margin between projects */
+    max-width: 1200px; /* Ensure they don't get too wide */
+    min-width: 600px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -52,52 +105,123 @@
   footer {
     height: 40vh;
   }
+
   #profile {
     height: 83vh;
     margin-bottom: 0;
+    padding-bottom: 0;
   }
+
   article {
     font-size: 1rem;
   }
+
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
   }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
+
   .contact-info-container {
     margin: 0;
   }
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
+
   .skill-sub-title {
     font-size: 1.25rem;
   }
+
   .logo {
     font-size: 1.5rem;
   }
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
+
   .section__pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
+
   .title {
     font-size: 2rem;
   }
+
   .text-container {
     text-align: justify;
   }
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .section__pic-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 2rem;
+    max-width: 300px; /* Adjust as needed */
+  }
+
+  .frame {
+    width: 100%;
+    height: auto;
+    max-width: 250px; /* Adjust as needed */
+    max-height: 250px;
+  }
+
+  .frame img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Adjust as needed */
+    max-height: 200px;
+  }
+
+  .section__text {
+    text-align: center;
+    margin: 0 1rem;
+    width: 100%;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column; /* Stack the projects vertically */
+    align-items: center; /* Center the projects */
+    width: 90%;
+  }
+
+  .project-details-container {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Let the height be flexible */
+    margin: 1rem 0; /* Space between project boxes */
+    min-width: 320px;
+    max-width: 600px; /* Ensure they don't get too wide */
+    padding: 1rem; /* Adjust padding to fit smaller screens */
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+
+  .project-title {
+    font-size: 1.5rem; /* Slightly reduce the title size for smaller screens */
+  }
+
 }

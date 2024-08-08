@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portforlioWeb.github.io/static/css/main.5938a9cf.css",
+    "main.css": "/portforlioWeb.github.io/static/css/main.e1ce4023.css",
     "main.js": "/portforlioWeb.github.io/static/js/main.09b53553.js",
     "static/js/453.4f8d9570.chunk.js": "/portforlioWeb.github.io/static/js/453.4f8d9570.chunk.js",
     "static/media/project-2.png": "/portforlioWeb.github.io/static/media/project-2.2f15d9f817c3b4924ae6.png",
@@ -18,12 +18,12 @@
     "static/media/python.png": "/portforlioWeb.github.io/static/media/python.14a9fe046ce9b57d1e97.png",
     "static/media/css-3.png": "/portforlioWeb.github.io/static/media/css-3.7654ce00c5ac2e76e015.png",
     "index.html": "/portforlioWeb.github.io/index.html",
-    "main.5938a9cf.css.map": "/portforlioWeb.github.io/static/css/main.5938a9cf.css.map",
+    "main.e1ce4023.css.map": "/portforlioWeb.github.io/static/css/main.e1ce4023.css.map",
     "main.09b53553.js.map": "/portforlioWeb.github.io/static/js/main.09b53553.js.map",
     "453.4f8d9570.chunk.js.map": "/portforlioWeb.github.io/static/js/453.4f8d9570.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5938a9cf.css",
+    "static/css/main.e1ce4023.css",
     "static/js/main.09b53553.js"
   ]
 }

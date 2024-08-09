@@ -1,7 +1,7 @@
 import React from 'react';
 import arrowIcon from '../assets/down-arrow.png';
 import project1Image from '../assets/project1-img.png';
-import project2Image from '../assets/project-2.png';
+import project2Image from '../assets/images.png';
 import project3Image from '../assets/cloudy.png';
 
 import './Projects.css'

@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portforlioWeb.github.io/static/css/main.e1ce4023.css",
-    "main.js": "/portforlioWeb.github.io/static/js/main.09b53553.js",
+    "main.js": "/portforlioWeb.github.io/static/js/main.6bb72514.js",
     "static/js/453.4f8d9570.chunk.js": "/portforlioWeb.github.io/static/js/453.4f8d9570.chunk.js",
     "static/media/project-2.png": "/portforlioWeb.github.io/static/media/project-2.2f15d9f817c3b4924ae6.png",
     "static/media/profile-pic.jpg": "/portforlioWeb.github.io/static/media/profile-pic.7a1ea79ad713f1c64095.jpg",
     "static/media/Khanh_Le_-_CV.pdf": "/portforlioWeb.github.io/static/media/Khanh_Le_-_CV.a5df7753d75b6ff2d2f4.pdf",
     "static/media/project1-img.png": "/portforlioWeb.github.io/static/media/project1-img.1575cfcfbca4e8fabd12.png",
-    "static/media/project3-img.png": "/portforlioWeb.github.io/static/media/project3-img.e4ec7234e10316313c54.png",
+    "static/media/cloudy.png": "/portforlioWeb.github.io/static/media/cloudy.9beba9e988ec5dacffdb.png",
     "static/media/atom.png": "/portforlioWeb.github.io/static/media/atom.13a57c991bb8dd8ceea0.png",
     "static/media/up-arrow.png": "/portforlioWeb.github.io/static/media/up-arrow.e1f248039b9675538f04.png",
     "static/media/email.png": "/portforlioWeb.github.io/static/media/email.761df3bc69bdc631bd2f.png",
@@ -19,11 +19,11 @@
     "static/media/css-3.png": "/portforlioWeb.github.io/static/media/css-3.7654ce00c5ac2e76e015.png",
     "index.html": "/portforlioWeb.github.io/index.html",
     "main.e1ce4023.css.map": "/portforlioWeb.github.io/static/css/main.e1ce4023.css.map",
-    "main.09b53553.js.map": "/portforlioWeb.github.io/static/js/main.09b53553.js.map",
+    "main.6bb72514.js.map": "/portforlioWeb.github.io/static/js/main.6bb72514.js.map",
     "453.4f8d9570.chunk.js.map": "/portforlioWeb.github.io/static/js/453.4f8d9570.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ce4023.css",
-    "static/js/main.09b53553.js"
+    "static/js/main.6bb72514.js"
   ]
 }

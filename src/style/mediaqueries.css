@@ -1,3 +1,84 @@
+/* Common styles to handle orientation changes */
+@media screen and (orientation: landscape) and (max-width: 600px) {
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .section__pic-container {
+    width: 100%;
+    height: auto;
+    max-width: 240px; /* Adjust the size for landscape mode */
+    margin: 0 auto 1rem;
+  }
+
+  .frame {
+    width: 100%;
+    height: auto;
+    max-width: 220px; /* Adjust as needed for smaller width */
+  }
+
+  .frame img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Further reduce the size in landscape mode */
+  }
+
+  .section__text {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 1.5rem; /* Further reduce font size for landscape mode */
+    margin-bottom: 0.5rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1rem; /* Reduce paragraph text size further */
+    margin-bottom: 1rem;
+  }
+
+  .btn-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    margin: 0.5rem 1rem; /* Ensure buttons are well spaced */
+    padding: 0.5rem 1rem; /* Adjust button padding */
+    font-size: 0.875rem; /* Slightly reduce font size on buttons */
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column; /* Stack the projects vertically */
+    align-items: center;
+    width: 90%;
+  }
+
+  .project-details-container {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    min-width: 300px;
+    max-width: 480px; /* Adjust width for landscape mode */
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .project-title {
+    font-size: 1.25rem; /* Adjust title size */
+  }
+}
+
+/* General responsive styles */
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -32,7 +113,7 @@
   }
 
   #profile {
-    display: flex ;
+    display: flex;
     flex-direction: column; /* Switch to column layout */
     align-items: center; /* Center content horizontally */
     height: auto; /* Allow content to dictate height */
@@ -68,7 +149,7 @@
   }
 
   .title {
-    font-size: 2.5rem; /* Adjust title size */
+    font-size: 2rem; /* Adjust title size */
   }
 
   .section__text__p2 {
@@ -107,9 +188,12 @@
   }
 
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    height: auto;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   article {
@@ -154,32 +238,7 @@
     width: auto;
     height: 46vw;
     justify-content: center;
-  }
-
-  .section__text__p2 {
-    font-size: 1.25rem;
-  }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .text-container {
-    text-align: justify;
-  }
-
-  #profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    margin-bottom: 0;
-  }
-
-  .section__pic-container {
-    width: 100%;
-    height: auto;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
     max-width: 300px; /* Adjust as needed */
   }
 
@@ -199,14 +258,24 @@
 
   .section__text {
     text-align: center;
-    margin: 0 1rem;
+    margin: 0;
     width: 100%;
+  }
+
+  .title {
+    font-size: 1.5rem; /* Reduce title size on smaller screens */
+    margin-bottom: 0.5rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.25rem; /* Reduce paragraph text size on smaller screens */
+    margin-bottom: 1rem;
   }
 
   #projects {
     display: flex;
     flex-direction: column; /* Stack the projects vertically */
-    align-items: center; /* Center the projects */
+    align-items: center;
     width: 90%;
   }
 
@@ -223,5 +292,4 @@
   .project-title {
     font-size: 1.5rem; /* Slightly reduce the title size for smaller screens */
   }
-
 }

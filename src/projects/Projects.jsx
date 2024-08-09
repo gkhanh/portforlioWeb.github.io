@@ -2,7 +2,7 @@ import React from 'react';
 import arrowIcon from '../assets/down-arrow.png';
 import project1Image from '../assets/project1-img.png';
 import project2Image from '../assets/project-2.png';
-import project3Image from '../assets/project3-img.png';
+import project3Image from '../assets/cloudy.png';
 
 import './Projects.css'
 
@@ -78,9 +78,9 @@ const Projects = () => (
                         </button>
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={() => window.location.href = 'https://github.com/'}
+                            onClick={() => window.location.href = 'https://drive.google.com/file/d/1bzo8sXv5T3yM4eOEq5y6BG-aOf-B7yLL/view?usp=sharing'}
                         >
-                            ReadMe
+                            App Download
                         </button>
                     </div>
                 </div>

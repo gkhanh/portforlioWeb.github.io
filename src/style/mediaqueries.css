@@ -1,31 +1,39 @@
-/* Common styles to handle orientation changes */
+/* Adjust for smaller screens, particularly in landscape mode */
 @media screen and (orientation: landscape) and (max-width: 600px) {
+
+  section {
+    padding-top: 2vh; /* Reduce top padding */
+    height: auto; /* Allow section height to be flexible */
+    margin: 0 2rem; /* Reduce horizontal margins */
+  }
+
   #profile {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stack elements vertically */
     align-items: center;
-    height: auto;
+    height: auto; /* Allow height to adjust to content */
+    gap: 1.5rem; /* Reduce the gap between elements */
     margin-bottom: 2rem;
-    padding: 2rem 1rem;
+    padding: 1rem 0; /* Adjust padding for smaller screens */
   }
 
   .section__pic-container {
-    width: 100%;
+    width: 100%; /* Ensure the container scales properly */
     height: auto;
-    max-width: 200px; /* Further reduce the size for landscape mode */
+    max-width: 220px; /* Adjust the size for landscape mode */
     margin: 0 auto 1rem;
   }
 
   .frame {
     width: 100%;
     height: auto;
-    max-width: 180px; /* Reduce as needed for smaller width */
+    max-width: 200px; /* Adjust as needed for smaller width */
   }
 
   .frame img {
     width: 100%;
     height: auto;
-    max-width: 160px; /* Reduce the size in landscape mode */
+    max-width: 180px; /* Further reduce the size in landscape mode */
   }
 
   .section__text {
@@ -55,27 +63,6 @@
     margin: 0.5rem 1rem; /* Adjust margins for spacing */
     padding: 0.5rem 1rem; /* Adjust button padding */
     font-size: 0.875rem; /* Slightly reduce font size on buttons */
-  }
-
-  #projects {
-    display: flex;
-    flex-direction: column; /* Stack the projects vertically */
-    align-items: center;
-    width: 90%;
-  }
-
-  .project-details-container {
-    width: 100%;
-    height: auto;
-    margin: 1rem 0;
-    min-width: 300px;
-    max-width: 450px; /* Adjust width for landscape mode */
-    padding: 1rem;
-    box-sizing: border-box;
-  }
-
-  .project-title {
-    font-size: 1.25rem; /* Adjust title size */
   }
 }
 

@@ -106,10 +106,16 @@
     height: 40vh;
   }
 
+  /*#profile {*/
+  /*  height: 83vh;*/
+  /*  margin-bottom: 0;*/
+  /*  padding-bottom: 0;*/
+  /*}*/
+
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    height: auto;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
   }
 
   article {
@@ -154,14 +160,17 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+    margin: 0 auto 1rem;
   }
 
   .section__text__p2 {
     font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .title {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .text-container {
@@ -199,7 +208,8 @@
 
   .section__text {
     text-align: center;
-    margin: 0 1rem;
+    /*margin: 0 1rem;*/
+    margin: 0;
     width: 100%;
   }
 

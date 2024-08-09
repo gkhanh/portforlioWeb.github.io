@@ -72,7 +72,7 @@ const Projects = () => (
                     <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={() => window.open('https://github.com/gkhanh/WeatherAppXamarin.git', '_blank', 'noopener,noreferrer')}
+                            onClick={() => window.open('https://github.com/gkhanh/WeatherAppMAUI', '_blank', 'noopener,noreferrer')}
                         >
                             Github
                         </button>
